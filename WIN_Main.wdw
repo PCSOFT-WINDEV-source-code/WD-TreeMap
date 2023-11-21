@@ -1,0 +1,603 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Main
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Main
+ identifier : 0x20ec4acd12bd2b50
+ internal_properties : CAAAAAgAAAAeXrPWHbl6hspxEioJahjXGkSNVieFAyIkXiHmLgvTbYJOBm+QzA+W930Ivw3/5F9ZW6oR/uEkpP1RbsBMztd5wukgHPjjxiy1u6pr/hzmFvmJSIV4bdpozTustTr1YGhOJZh0L8jswSG4eOfMC1kJycyjPPo70oMqEYoK9wS6Ll49lj058+lahWNWRJuB0Fjpneby6HLszfaFFQVnrVF98hq2sCwZV2V1dmWJhU0qfNeTw8d0NduDbsNCMkmS1AHa1XKxaz9HunFM3DH9a26x+qJ3av2S82kUw4YsWdeA90WH5jefjXPs33mcVSDaVcUjmOaxb87+FyDacKsu7T9L8Yp8LIGnpDWUnA0R24CZmX031jR+dcQTlyDBaPA2L13pVcTcsTmvGWCBWw7UfiDoF7OGkgtYHA7NLtM6Hnqf4in3woESzgW2AftPdxAA1ddKpj3/XnZK/Gbxsq3v0fXz9Nfx+Hev0LzsnsdmDykW5jY+63WruT02zPTYwVZ7bcguFuW914u0hXamCs88BpImlaX0q9Kpi/UEQHSrisLzXhhaSIcq8F3AInq/Rrm92lJHYteWlNDs99W3jeE8pUs0z92c9aYfKT/dyxHca2drKlP1IldS92U0eJyhAiboMEeg9UlgXsbKTDpID+YY1VTFa8099MsHiOKaUm/iheTl0S1fAGuu/2HNttzS9HPdPYKGpNOxTXTIgTUigEyZs7g8fS0hbjtJdeyStqpWSxBx+O5+7i0ufduBg1DqHceImz9Di+j1dNz4XDY=
+ properties :
+  width : 786
+  height : 670
+  widthClient : 784
+  heightClient : 638
+ controls :
+  -
+    name : TMAP_File
+    identifier : 0x20ec4acd12be2b50
+    internal_properties : CAAAAAgAAAAFLiHSe5a+okZzJEsxHi4e0YmcyChKC4x1SiCvI0IgBiATWoKsJ3xz3YMkJxxmSZMEBNly9pDmT+2xG3D16a2CPUmSj7PpMMtztkEP7+x805KwErnspYRTkAYLknWuhsTdJqIKkRpawzBnKskSo6dsQfsR40UEM8BuDYukCHv6mIT2tfONCPXeymoL6X/8RCnaWymTMNFDDlIivYtjuzNRqM+gJBYftVZIn2aIQ2ZrKGEYh0qyHHzhn2h4/wk2fdsZEry0Aba5F3JJSSm1/CGxxtoW01v+q4eqGnGK/rhEJU4+LfI6pcnRGcGfpVCS2bo1byPKep12Do5zxErCmMRckkWRsuZz013ueZRgzkJALNYaEN8Mg8Pqp8mPkGJjEx44HwXwohokrkN2IwyM1IrH+qA7dXfA67Q1dLAUCo6J1iNpZjWp8X2IZivVCJ/R6rY/t2b3tOrpyN3KR27az2Rnfn5b9wYA7K99ZJmYtNTdNEa56FPG9D0g+c/NLiDh8OpwzbR9ousAlsQRxzW0CSkX6/kjAcD46Wns29xC1vvvRu09sSNjt6DKhbBtKh5pUhmP7Bqobmz5+xHuFXVjhjXItGAbdQE5B/Bw/zDJH64zlcjMDhgF859h5j1El+bE/fXxBAMRGg/RzhiETbLENeM4bbxBQjDVRG57hxYBNlMEJSH8R2/Xf+FYmYg18qwFwkBFu9oWrQ/TvJQDZ2wq8PKEKAjbFzVYkPm5/AN0IJjnVk2I6/fbejnThGM/plYJJFoCT2a44Df3C/B/qjFD1AbMFolCeFeyoyACV3L3BwrMw3675ae/PaQNGGdhiOMgs8eQFTAc4cRm6xOowWBZVVgBxPf0lqI=
+    properties :
+     x : 6
+     y : 6
+     width : 772
+     height : 357
+    type : 74
+    code_elements :
+     type_code : 105
+     p_codes :
+      -
+        code : |1-
+         
+         FindTablePosition(TMAP_File[TMAP_File])
+        type : 129
+  -
+    name : EDT_DIRECTORY
+    identifier : 0x20ec4acd12bf2b50
+    internal_properties : CAAAAAgAAADQBBzgPAAbSd693kup6QDxQ/NtNpYIk5J/H+V0qOSUCEmxEv2fVOtXEnhNlRIT6dF1teOeKY/MyvdfB0GmZIssGEL4mmcQjZmxgXYVtqSz+iLeiGYfJkjm/jONyDJRjZK/3OReiI4nMaAOvZinbGFh6PCJ3xdM6wTlu+evKlM5BGrhkRjTu2WEpQEMJ+XZjQghAXRRJwhHPk+JuGzETrs0VOdYpLJfxK2BkaiZM/2mZFz0q0dR5AcT/5299jp3i/8GhAytXV65BIMthQ+ihmiE4AnIkAN5HJvQEjEG5lv4uR+h2TCXd+PMnkJ7urPWznxcHKWLrs2SkBGdeMuGcVoAQJ7g/C0wiajWmq+rixngqQB1HnA6lJL2ROgqFtvwQ/uCmH+j8ROBtYbhuxoQnYTqgGQGxHi8f0Za+b/3Eerp4QYOTiLAtCP4JLNguF6UbLEVph+DAxXtiocr+Gp/Amfl6jxon9cV1dkfnpshOqXXR3UEPHzwQiYa8IyK5ELtiC5rjQIGGg33KBGqqBIEWHyFo1IzILqiT6XC2B1q0Wkw/JJyfNPgErW0mb5lyFvle1vqwTLLjwO+FqKNnzM90h30gqUwCYxLSUlTymBEVUM1kBlR3gZ6tWYVYIb2K9ROCgo3wsl2gscDphyeVB1btg3uP025zbNqX9PbLXNU/KSIX+lFjSgtHhNaGaTps2rX5BePTE6xKv2O/MjWODhrS6qQE0YREWqgXWZYWdc/Fl5pwJuFhSb+rZkePctDWqw4MMeoSzZL/o57PqDyMerGH7tgyeHA9CxiHhAVA7CVlFkZTCC2wSrIxRq/8qWpJjCANR3td1WRO0y25tSE0N3mtf/LP65ApmhIqRq2wg4Yf0wQmdzOufUlGZkQ9eFLJv14FQhl27CPc2iqXanRJuLq2dgu9MTHpqEypdQ1HD/3qS5mijgEgPgsIhlbGzT258xvYoqU+cXv6uGc+r05QT2bssKWGAj0PWC+ZgyY7C+684TcPeyeGoI5slMBEzeqNy/8fy8Mt2tr7YvDmnP5p3nzFawna/br+uyOxN+paaDTtZX2hgmOydzpC7DASMT+tMaRnzuGMYCSUj/LyXev5hHhgnySaeacZLqKFX0vxLuiKPTQe257CFFT/6Yi6Cddi8NxzvRvWs30tHrxm98a9L6Zm3v326Y7QcgyAseilkVG5TjixmHjAwd9V6lu4W5vdCdqjefa1icRJ9HYwxQnDtJKHZJHvBSBLtBj+igGBVrxe8jQ00vJX9/4LFkQ33bCFp8aNu6s7kQbK5i4J0L5n97e2gbdCjWHpDQ4NmC8KVFJ9YP0KU1WaCPX
+    properties :
+     x : 6
+     y : 382
+     width : 742
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Browse
+    identifier : 0x20ec4acd12c02b50
+    internal_properties : CAAAAAgAAADqfVCJEgAQtCphgBNP5gDriyjldD+8SyU84GSdSbBynWbxBzUBUwKzMNdgYMrw7ROUi8bG2B6aiJ4BSvxV9wyPtuOF1Vnkobv7rTAZxrS0mPewFieZ4Btai+4QPKHic/PuBo0EWhCkg+1g7dl37mCeyD36nw+DPxGGw/4xYGpQ8/mz5zQI/NgchKeY2wmP212PAVDvkyTZSNIDTjs3E8X1q/O5JD+SmBzFrnq7+h46jmhz2aXBrQA/XNlGMvaSjrZxJPvUYTSFzv+yn3swMk9S3NqgjcBo/RZo7Gty5tTa6XNQpta6dx30zrJyeO+/VaRFrhxeHXDCTKHoCP93mofZRj3BYzzeqPZM0bsXxSKzine9BMXOlzyHHs5xnkbAesd6WOQdqT7IPq0NyD53mYa3uRCfBZpTsylUFg98KTP63lHosqNJ7+zvD+np8xRsUlROsWmaSFDgq+jrqRTJq0Wvsgv4m3MaivUdrgc8B1o/rfPxY3fiJ9P1cnEdnBQg0YTngv5axrzmuGzGFRZ+TVlbKNJHJt9FR1AVzyLPboh55Tv/Jg2cGEXh6yI2129QiOFVB7rTsiJz+anad/QgQQOCnZdHxSiL/V4AaxmIsXTxQwQ6dV7DiU+X98PYEz1Apcp7wXmoa8zUAChQ16l0F7BWTgUqOXQALhof1u4F8DByIfWIJ1BWuzs+jq+aH5ajErU62FOlu8uje5YQJY7N8F8P5pU76jfldiH0OyusImQ10HU2gVjFgZLYxr4GHDcQY6wvNpfJFEAi/DChQZY434d2OENMmc4mVFl3CZQcqfyP6UOT1g3UVmgRDXJlocA3/aEVQZqiOSHJW5QOQhERt9jgW67Fv+lofcBxBzJUelkfmBaA98/Jsjmm0Y24SerA31eQTzT5sFLE8Z2K6cF+XT+JFuVK3+q9SPmka5D/rQKn/24=
+    properties :
+     x : 754
+     y : 382
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Variable
+         sDirectory is string
+         
+         // Select a directory
+         sDirectory = fSelectDir(“”, “”)
+         
+         // Display the directory
+         EDT_DIRECTORY = sDirectory
+         
+         // Create the tree structure
+         CreateTreeStructure(EDT_DIRECTORY)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : TVT_FileTable
+    identifier : 0x20ec4acd12c12b50
+    internal_properties : CAAAAAgAAACIJWXgZe/eWYw+USMHJ332a1QQ0Jbx2ti9ZrowQplx/15/JVqFFN1bNHt2K7qQZvuLrhMqATfDP82eY7tIuVitbeeEg4vfRfP7oFtNdiCXCN/+IpFCsahdW3m5RhrkmAT7SZo33sLqruxcyJhZYBF5jSCSK7ZD/3eRb8IbcvMrvdk5/0+RnIDPHA5X10NpVHQXeQduDFuwbtYFY46g5oEyb2uYHJbYy6YWLLjiCBU+oq8Hf0YQKyG38LWoGB5qmMHmU0f5SQ1dLBy381dqiHX1T8+cuMNSsB72ByOLQaaG+s46PYzsd8psWJXWui2gHbbD83YppTeoFeeOOHnlYwX6Nr5TvHiYjzognnrLNrHzvtNaBUUqmsvUkc9zRav59PFGZ/OrJRtq+7qDI3uvXmsUupHZv4wi6pAucD0AgOf05iks0a0upVfoJk53CFxvqXSuONX1fgY+Z3a6Rl/QpHVRnWNidVO+/By6ahWpXCPyTJa8kxzfrc+BRMJ8otssyOaYbpR3iF/dmVI3udswn8n6ngvmJH1yg7Tl5ohAnHnInu4eNA5heyvPliT46V1ck9/WBvlfDWOendwsXoEhBkNMmegdhO3YZxya47GLxe7JafQ9iea8huP3dmmKQ0ewv18HEHSpwwJCa4ZSl0rXTm8rrG74o8g8EXgGyYfcessuvFDxVefEY8tKkzOFmQUC8ZW3Dg4v0vRNZNE0VXbrlJVSgWi1/mph6zYao9btnY5BYAESn9DOTCt0lecIyQhONDNDqLYoIJR/1qaO8P50euTOSBEVmZRpgpB+aWLRjLvnPR3jwZM6wVRaIr9kcvVlj60c/Tmpr8JoFx+CAAqhlydod1seE8ZMvYH8x7t7mwYOi/f/ly+SZs5BohjsSg5KTwFwUmpUQJwi7hOornqAG8KxeDXyQE+WNoerp44ek73ED4i537lEbEixUfp8VLxmEuFanF62uQNdzhJHQqaVPD3wLVJy+t0ywWJ+l2+QuRwlSOTGab5rmo2yjTP8y3Q8moPDuXm9LWuZ/LRVkoErMeNlVuTXd7jp+nzoZt151vkGP/LG4PcWNmCq43h2mnWZTj99fJ1ACFSHN5P6Ne3oFhOWTCBjYhbnBsbOPHUeZIsiOydSUG7n4q9zFobhcNmhsQLM6wP18I1MiY7R4wMtBI8Z3b2Hk88icVNMr4JRAnYKkjMXH6clFKKoZQnG9IB44vB2l9d273AqFh+iFveTUpD30VfDpw2pkqxUi/rsPH8nJ1VUH5tOBiY9f4qRnZVdaBlRNj0gPDqNIuvw4haUgYQJeh4JMyXVJol19+Pw4+n54zS2R8/dSlt8E5SyqsS7yuboAEAnr7PWaPE8Zy/X14RHsrvf57mcki2v0VL3RhKXX8OJah4IOgaJdx836RAhgzf/S/1EjlO1+sPsaqiXGSI0btPqrWQNsZ/G7cQYv7xUcV7XEmoHBtRG1my4K93QGXX3KypOI5X7O11/8EyROzLZrQSp3N8RvUgNhBzGGsh3kttuMuasZDl1DpYzL0wG/BYl6mzqiWzEj2FUElmSomw3we7Cq9ltPFf1G5JAninYPFCgrcLFT5T00bFEfst4Ai2yTOkDE+62NKAwwbHuluG6iRVSKqIJDEsDVjeUwMs6IchRL42HbVFylWYLbmuVQYbyzxE8ddU4GVs0K2LMJl/nzSsOjHjQqPbpqM7qYQyDLlLN45lF5Su7hcHw7yryzKVGBARTgtxV45mGolN01ebLnUjIbFqYvBsEV+Hm1o/v2582h6tX1oXc3kvMEN3m/DR+TAQvlpFRaKJO6KAYyCNOmR2Vm+ChstZ+gdb+X8heYdf7g3ZqVWB5BmXzP795xIAaLwNuFscgBHFCunqJXaLv/7L2BfwqWbhItYilqsQHzbRiYZETIPhYFJUIXcy/QEstFpVt5AE2u7CJH1YvOUh1GWh2jEax9VkRQSsmU4vDu9uQURvqgAMb/xajh3P4Nb0VZLZ5NPnGFDFxxpj7Uz4DN5JmlJNxeGZ7lGUT/eU8mHQxRxnPNv8nrwCO6bUuN7WpvLHhyEF3mvOxzjWI9ZXXGude1u5hAEA8cLFgaL4enuuRngyqSZnXHRIsh4ZgF9E3yiKcf7LjKUgZrpo70OStVX/SFLIgbekfgxkmLAHULfD/CvP4Nz6oWyIQ6v+IGLA+9XYte6iBkoyR46WJRCbJpLDhdcS006d9LZbarqCxW2iThGq9EfJwr7CMNvJp+CPNz/LtFayL6bRO8AX5nWIXXdCToZWHLJymwj24Anvm6wep2rUX9Mqc7LhhQYKB40DTp7JIAjq9AkizUFIEVCxklDa13jepmj4POsgzeL24cm7+8jnvHkFP41LjcKQSUA5hMBfhJAv0G12JjzWkzNOhBdv8xfdK89pOwZuM9Jl/paR/0G3xYAyKb8Yt83O9sLFxVNugg8jNfUQWJ2D5BRHgGOeVXz+SbWpxqcmY0amwN5wb5K8+aQUX4CKVlTZLTcAujV4q6iz0+v8xHw0dq2LUD3SeSX1KUESThe5XG5tph6TCETLccuiAEKx9Q/0MNWeEhdIkMU1+1Cc2fECzwjbDqso9PLPm1j2uoQpn6YATEQ7WkiJFSQ8qdsHQmO315a6mVCZzdeeYvKDnQL17J7PDMyhStwW2x0nWBdRpL6Yg+isX/JG+gxcD4TufH4aFerAeh6cnDtdFTK4vBccr4CBy6WDNJJ5X/+U5I6nCUyFN1ToylkSJA36uKWpbMAlKBRADfiXOebyc3THQvVFb0P0ybdeSCcCqsyF+zx6sIbcYn+JJTrvmB6BJBxf4s40KSN8zBGLQ7sNpEQzm1Z8hXQLbIbBl9XFX0KpdyvveH6zVFp0ec5ofSfzY5xvRCmNAdwvR/x3V+VfnGSoKnwNOdBDWH2JiGR7swIdaqfCBgnN949AEo5NZw3HuD8K18V2R47NuLTQ3sMa376hrV9ZckWd+hihiYengupj6iR5M2hGwHv9sardRbC9pjB4ExkeOa89Aj1PxKfPlWdoVQXPQmGF+dHYguSF4aDnFbnPqmemRc5CVyRzkwcBCRbNynAb8BwepAeGc1zR2U8I/1OdXlf85IXyl4tR/vQcmnVlQDKe7YbYN6Fzxucf0EpgDjF2NqRh0imMbMs1zqlVHzhdis+vpQ8g4xwv10hVvhpBtiYsHb1txBBp8KqMxswZvz2L3YV/RQ+hGKyUQyUBlQ2ayhTAq3erbBH6PNKj1BrJOXZ2UNXtEAx8IV91nayYVmbhCi00mpnCWCkXCbJFko8BjPGxkDXmj2/3Fa0hucLaSrugRVqEf3nLXGaMyojJgn1kEOtDaSO4KsFCBSOvtIQzEMpWfm5K5JRXiTqKFDFx6VZfieMv1KPZT9AHGwn5/hu0fIWTaFj8yNXEZ2VG29iecI2OKcIW3oeV6NAzaCFCuRkSptQ9lOixwf4p8s49rosWwHq47jKkwDS5rUm+zdy+18i3DOlqVywKxF4aPtuWVw8nf/0p034J+8qctFKgckOLyhM1rJMOGl8XKeK4LHUV/0Sg8W406HtU3NiJMi9CmzQ99lVuHtfLQ96+M7z2/hvjKE1DBa9AKbBWa7aKiFOc43qeLA4HMpErKfTnfEampGaU2+HPNdDQQlAsApXdh/HU/XPNXxQJyWPzwE8By5ny+1v9NekE5++GGNbfgB/co3B9cskcV53GsAHPR+PXPhVLai9iuGi4AJN1+aKlMhMgKa4YR7Dg/BUrbTs1Cesm/80+IbozOWGL84eqPCBTCrKtsg5jS8ktdW0zoQbBAlM1PrY6Ub3jThfc2YpVoLhumGE0pyuIruhouYWK7/R9oXwK3UIni3tNfDCcEfmLmxO7gbf/zTedtK9jeQZPuujMktIrj3l8y1KcDVfH148yxJ8Tg5XmBq7o2iSWcwjTAi9pMg9PZwdZ0fAwBptbwemrKygweM8yJCg69IFIoM/ie1oc+KT429sQ7RuZ6RV+PJYMF1/4XmIU6Dn3WuyQHER3ifcEyHK0osjTB104Mltu8HPOHNiWTj/6/Law7YmijOZ3pp02QqQMuOZUGRcXg6oBI7esNFbBN1Z9fSDM36TdwzZn83Q9Bb4NqWPc0kgo/BErmWbpsw2SAHokJMJCURmahUUBI5/j4iu8lF8ytboAVS48HWAwZb8IoJ7Yhpajm+tr0UO20gxrY6Jqq/+Tnj+TcbJ7kwFkqiHtLaRwUAlRs7BGMC7ZBa+KvvQZrJBzBzeYKtE7LUf7CRD5AgfScxTYfv655Mc/Zwd3HmZ+RNoh0FBonju5Hv6z+rD+truk67r04MfnQFqX8nDi90u950svBp7z8Am/1OPtthCExGSlw9WjwdopISC1FaJqob+0dmFMU+2PuylDOd/fCOWBFYy635ld1dyHPUa6yBvB1QwF/WqaErH+hlQlaTy5hK/DyshkNCHdMbUNIeHJQueteFFI/1Ept2+o3SKuSzYKsljo8rVMYwL786ZSO50A/JNlgG1zXMZ6empO9G9a9NO2r9NljkfAEG9H/nRyGYtTuXlY6TaQJ/kEDh0LkPqpCoxTPxDpcWt6mOjekJGAxNmaz8Qd33E3Oujq18OuocNmjgvETdIKKBXNqXa/YbeVZm/XZOYR/vVDIpIaNIsgKqtGNul8iptzY57OXLi1e0Ly13NZg7baL52QNCrntxKt6qeen9D51TBZg7+TOE/U+ThJBqatC3EuIk8ocTbcniG2//TeCzLDjR+XQs2C9sITpFou1NORGt+Vs9Q4nkhMwsGHaGyQvviJGPUmkKE9U7WV7eVMmg/pp0UZ29nkXweymxWtv5JihiPPvvD9QHLY8ZdpRwxQFA+BaCYzEBzXsUj01luZldDc8ZFZDKHC0OSqrK16YU+oVAbXh+APDOTQjRMMDvPuFKpA2jVG3Q3hzc6Do4aD5Ldpn5t0tqp/UDce0DUh6yIDhtfKwbJK4puk+e7qzLsb0pNaW4YKp5JinqonPgRc9GRWxV3CQWxY8PdWj1Xe+KDSVD8tLMyKazaUyUIjT/b/1ppgUKzIdsI7TdiVxvg9WcJ6x7ClhuU05t3WdnnoF/bKzVggKxph+O/9UDIQ/Npzyjx4DlCmKYZkJPWoS4+bree+3NmTzdwHgyqh7tY0nCPfhIIVt5VCpVyKRGRFbmgbLXnyvsKA18koeIoPO4Pf63DjMHJsXUAe3biOyodRbdxTiTZAjTO6qdjKu+RxGpgprkwCgkzolVOUWwNW5f753CwcQkfTfz6KjL4h1iiJ3Br2N3E6id2JnQjL272QEJZguz/iHsJy+iNZXg+WnUcyvwUmW+p1VvKNzZrDIZPK3YIm+4UZBaoI67nhlq1exjbxrlSzZmU8pir7/ct4BL7UtjQuPOyghSKoLMBvSuivd1mQN/GMckr2PMg+BX4gJPVpQl0Z5k9UJ6XUAwfUppy49czE7JwmxZJrJUUFfVbQa3Ani162ID560BjkXe/66NltYORJiouxKEbb+oKXf8RKDtkFYkMzwsnwPIBBUw/9clGHng86oB7Q34vyIqLmwJjoBC5IjrU6yoagmHEQwYespQXAdbSnUEniqyAov7M6/bfhIgZUV8wk2YfMcCXtMAcdOQkn7LCHGSxItZLzezzvwtXV5PJReldV3VmF03TkDcK8lejUY5tkYR4uTE/qJXn9TxNOgvWT0A4VU+A+CmnI/OJ7ecPCHMEig5MWSoNA1mUiJ8bTrSLswnBuQTaTjNr1I5iXVUeuL20fh0IZ4ny8DqbrqkcW3Uc/XSVwoyn54jLGRAx2H2nHjSpCWeSGAh/x5Y65b+ZDgojalb8qtXU91wnveowlyZoJWH3k4gWZbvHX3jctkLDFaWncUeG9x1Hapn9hf+/NoROyMzl6+ozDJ69FcmYRED79G/uvmKEjErqHWh8n8tBlOHN0JM/x+WGk+0XjG7t32bHu1/ZE7Yto=
+    properties :
+     x : 6
+     y : 412
+     width : 772
+     height : 188
+    columns :
+     -
+       name : COL_NAME
+       identifier : 0x20ec4acd12c22b50
+       internal_properties : CAAAAAgAAADSXY8fSm7K3Dr9SYT3AXE4OPuY0LokDRCkxvhotXEJ8f0xquMe84Zz3uHx0fk6cGn1JUwE8IVrnRiWMb48YkhKfsovRaPAKrnRBrCNo4iR5169FfH9RId03jHmykU3oezZ+HDvtqEkmDoX7tYACFs55ohjWWvB5opyV1k+PNnmfkWxnXyYdf25G0iu7gScTgDYxpjuIao=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACQN+r+oXrWZFZ7td7Fwl4UfWm8sq9A4G8O6ZejFn6X2n5EN6RCC7bfnn7a5ULlt8bySqGJMf0fnbX8GLFbdk/yvIql+kD+OxVJtzynCo5MgAyXIALnhQRULnE8NaS6fdvT+gTUemFvaazG0LvufJe7Bq6tP3xAqpCtvy3uzM9+0Mp7FK9763bAJEJiUyXfm0GIzbkMCkhNf3bf8G3dmt+z915YeAkut/uOAEQDqPd89+Wp9O80PFuf4mLl3/IIYcUkfJUNp23Rkdbwt9el5Qs/T2otYn802MnxPPKhtakJWg33Hu1wCrD4ZqPawUN9qWuqsy9er4hTvAweg2nahC0HRf5Gtjb2qUh8UiAVeSy2vq4thuOe4A/T7jczj8a4Z4FWr3cLZjF2AR1034I7SZ6SvlSibwcX4lAcEidLBCNPQA9u0SMcCsymsrVfsoCK7KyslI03kz3lAgLhSFhnnf201KeLTQtxBHdFyBis4n+ESOuh3bAOxKPzXh2k4gLI0TXQC4Fz1nfqTuT5JOZRrC4OX1dDZw4/TTk4ETgw3NyQ/IXA80nOiC+aBD+9X90CvnxrC6H7OmJ/d2lpamZR8Avj0gFd4nQl4P6K94IT6zIM9o2oMyk+HQR4GtJA9xpni91MFAak8USzJM5jUmozyxeqfArid4iN0D36YT+eDRNRoVBw1Wv2ujiPxWY7Qn/2ormUmYv0yPCQSjflr8ZqJMTlceiBs2BkPZAjYPCeUh+1yoZN9IB0XJ3Dq8MCh+zNGGXsxPVQw+3lanhomxIK21lEFx6QHZJTU6lvYsZ7B8Jd156leNzorvctG+HQ7qy3jPzHV/9niNUuSyf9jPjgxb7GIip1sR43Eesy9akRn0X+pyBGut4q3Atznh/boJZPUaJFP1UCpLhiBlosUanvqqzqdkQ0cNos7DBVOUBXPw4F4InG7I00/cJ9DjPZHyPXs8hyGuEJheY7SbUBhoz27LhYuexViGds
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACwG5gjYxwePnh4tkyg+YZ6W9usWzt66ILFLOTBfyaiQwJSBCt1qyzqgKQwDOcFwwrGCnVxz6kvfHDAIlpNEFElNA==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_SIZE
+       identifier : 0x20ec4acd12c32b50
+       internal_properties : CAAAAAgAAAC6VY28qoNtwSqcoPKj0HA09LFRr2XgQ4xxHl/eR9hHaLPpqozCVmpRZ+zaeEyp3HWgCjNbpMQGsaGfMsyFAIDx4f2+reo4wZvMvuWfE/OIXwj4V8NJRsZ2Iyj61HGz8rBrNO1XNqfkdaZ/Cb1zeR38nypTCHmpy2HG88zd8pBOU101LAM5CUFbFA0tGz6FscFWz2mXWd1S1H79ycIg
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACQN+r+oXrWZFZ7td7Fwl4UfWm8sq9A4G8O6ZejFn6X2n5EN6RCC7bfnn7a5ULlt8bySqGJMf0fnbX8GLFbdk/yvIql+kD+OxVJtzynCo5MgAyXIALnhQRULnE8NaS6fdvT+gTUemFvaazG0LvufJe7Bq6tP3xAqpCtvy3uzM9+0Mp7FK9763bAJEJiUyXfm0GIzbkMCkhNf3bf8G3dmt+z915YeAkut/uOAEQDqPd89+Wp9O80PFuf4mLl3/IIYcUkfJUNp23Rkdbwt9el5Qs/T2otYn802MnxPPKhtakJWg33Hu1wCrD4ZqPawUN9qWuqsy9er4hTvAweg2nahC0HRf5Gtjb2qUh8UiAVeSy2vq4thuOe4A/T7jczj8a4Z4FWr3cLZjF2AR1034I7SZ6SvlSibwcX4lAcEidLBCNPQA9u0SMcCsymsrVfsoCK7KyslI03kz3lAgLhSFhnnf201KeLTQtxBHdFyBis4n+ESOuh3bAOxKPzXh2k4gLI0TXQC4Fz1nfqTuT5JOZRrC4OX1dDZw4/TTk4ETgw3NyQ/IXA80nOiC+aBD+9X90CvnxrC6H7OmJ/d2lpamZR8Avj0gFd4nQl4P6K94IT6zIM9o2oMyk+HQR4GtJA9xpni91MFAak8USzJM5jUmozyxeqfArid4iN0D36YT+eDRNRoVBw1Wv2ujiPxWY7Qn/2ormUmYv0yPCQSjflr8ZqJMTlceiBs2BkPZAjYPCeUh+1yoZN9IB0XJ3Dq8MCh+zNGGXsxPVQw+3lanhomxIK21lEFx6QHZJTU6lvYsZ7B8Jd156leNzorvctG+HQ7qy3jPzHV/9niNUuSyf9jPjgxb7GIip1sR43Eesy9akRn0X+pyBGut4q3Atznh/boJZPUaJFP1UCpLhiBlosUanvqqzqdkQ0cNos7DBVOUBXPw4F4InG7I00/cJ9DjPZHyPXs8hyGuEJheY7SbUBhoz27LhYuexViGds
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAD8tP9jVHDR/0kBIx+dYmYewAPbkSrpehkpMqkUadAwkaItZ1RucoH9YH/W3WX7I9UPDtIhm5Skmkq4AZ1BLLgFTfszOq1p5nm/QuMkQQa3GomLD+uA26GQd/Z1TxXg7Zgix8ozAiwkXto0XN3Rj3fn+RqgCmVgZ4PqPutEqXA0rQbtfQ==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    type : 35
+    controls : []
+    code_elements :
+     type_code : 89
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+         IF TVT_FileTable.COL_SIZE <> “” THEN
+         	TVT_FileTable.COL_SIZE = SizeFormat(TVT_FileTable.COL_SIZE)
+         END
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         IF TVT_FileTable.COL_NAME[MySelf] <> “<Files>” THEN
+         	
+         	// Calculate the path according to the selected element
+         	sPath is string = GetPath(MySelf)
+         	
+         	// Select the group of directories and the file
+         	IF TableTypeItem(TVT_FileTable, MySelf) = taNode THEN
+         		TreeMapSelectGroup(TMAP_File, sPath)
+         	ELSE
+         		TMAP_File = TreeMapSearch(TMAP_File,sPath)
+         	END
+         END
+        type : 33
+      -
+        type : 230
+        enabled : false
+  -
+    name : BTN_CLOSE
+    identifier : 0x20ec4acd12c42b50
+    internal_properties : CAAAAAgAAAB4mN7u6bs8MQ842EmcyDVuWJwcooMyyOV5C8/VV2zVlaayb6Q3Cj6Bjqu1quSwbX6MNYVcZd3+e5q6xK8uX7OWi0xLt44XYjPdHJgqNL5FVjicBhr8byw3f9NKIIV4a30C3CA/sWKpDdrlkPAdWAA0qTM0hsZwG5otulwAEr4k9GZU1AlfWfPHihLjx+ZEEZTIJZp5BE09oUk2d+N3utKCEBkNoYRunVoRRb/mpqHMgsjUI9TezFOmYyjvS9xRcwDf9V0j2s1G/JzK7VkbwNU9rgYiXkuc3OQwotvNjCpFV+aNUoFbNIKtGaEIwJrZP0wxK5n3paIB6xUXMeLF32YzXq6hKHhlWXLj+92QcE4EXenzKjv5oay5b9xxRJQSjW1bLxbyN1gry8HngVu0fWR8LoYaPaB4D2JldYjYBF44gerX9EpLeTg23tAter7uxSswneoMv5RcKr6UyjX+VQDPFJZqN0QeSRLDo4KamgK2myh3VCjhae9z5iOLZpdbpiSNl6830wk1KmyuvQB1T47qKALrreVTcYgBTnMukU8FM3bql/wsN/a8UPJ8xJsZ39FoQVsAG4lK7sLc5njS0FlXlFVTjpOvh32c73v49p1fu2Fel8Kzjy4ct99KOeM90sabTA4mCXrVahj5Trg1M+ZtRaanvDiQYnbdNgx98lHtzlmkgxjaSokJ6uGVg0nxQDt55AXn1Z96NUgLAZM/h4HmYMZwnJ4NUW4CY9hrw7J1N+SZYXEkzwb1lImmWWUBo11QUZ3rN6ij1zYBsq43FStPXKw8LTWdGce7HSN6uGByx1a8nuujSMBGW8wOqB5lb1t1rhNM7pzZjm6afwCzSj8R4jCfA85X/0ihGV2LGTIlh03MUlZxbsQLjsGrYMQURMdgw+dG+8nx27UVdJgvj5UfmJv/2wc8jwAG06Q/
+    properties :
+     x : 698
+     y : 606
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_FILE
+    identifier : 0x20ec4acd12c52b50
+    internal_properties : CAAAAAgAAAB0Gg4Z7EFiIeajtTMGvRiB8iBWzZeIVuKEXinMB8eCNK9NRYYIqHFl6p9ZUikBNnn2kR32n6kV0qOFdSP3ba5EyAUNKgENjStj/o9zTrWj482qf4gqCq/sHKoVxVIlSKTSRI7cU6ItD64/OrBjGAbNFxxyhbSQqgx0EjKHNOwv+xzkyGdFoFbC0UsMzwj5iIzOUrG6JAWxI13hGmEh6PLqOcKiJ2+gUd5oxiBwKnJHlmPtSKNBeaGhFKHvNI1zMKkkvVcp8sInIk5lqWlg3tim4kRyIKt0WF3Fo9iaT+58fIGF8jXTWGUouZxI6efF9xwtn9crQis/Fhj6l20fgwmPFhrYsxAv5uwz/YG1Pz5P4FsIrszva+UlKkT6Pc87+HjEP8YnUHS2v5jcaA0krfweziPMnL2qqMcGILjY/sUeS6CcjGh+d2KXi+78vMq/QsTsUEdj0bA6X2RAIUERTmhMy4DtE6oN+FAUo+ypXZoMwWJMjHnXQSyUATwmYpU9RtSJPj+II87L+ZbIT2TO+vvBDPzW9QitTKWXyJpOlOrNCRjR2cEIlN1XW4/2wa8UB9PllawaOCnUUlIvp9O2PTApLElU5Nee5r6+dQ6gq0EiBY/iLXl1AQs8SmcWJrvuBq4DKHeM7G+6yLC78xXN0EucUDnCrBh99hxUQGUSEkczzHi5zXSnE5sr5wG7fqRQTQmIaX9Wq/slkpkmRqebH2OLU/DuKtZqKbYO1/D1FExBeHKGB+4vR7y+FHQcQX1eZZRV/9y/ivLhDehceQDs0etnbDU60K7tEO5UcePWsyK2JdC/0mbTpuuqkjFvNYMS35BTJzcR56h7GjtKqLjY60uNrQRRlqlqDk3VbTINpHsKl/tq0/1lum2R8gvtTFQIbkET46vneEVnhUxT+YcVvg==
+    properties :
+     x : 774
+     y : 667
+     width : 16
+     height : 16
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SPLIT_Separator
+    identifier : 0x20ec4acd12c62b50
+    internal_properties : CAAAAAgAAAA9psSSfXBTzdX7+sAVMKCyPfd2kwtuFLfFaBJioLfdJy6YkFWDUdyRzvg4Byx/BzhTNpzmjtltE6bSyPbkgQbvBsq5mGMExBmbmiLo+a8P695pVow86eLM6gdEy1SGXFs1n2acWvQnDQkZbgfIk4bBZ+9rAws6yS90bIuPPSk7xfo0f/Xf2TKsx3/7HXEgcf0MJKQZ8mik+VO3SHnxKA8aRb5g1nuD0ckQDrziKqJg1NTFTZ4Zn35BQFAHeD7C797kjYLl3FAa+mD2P9hoIuRzUwfuhqvMk0EVpgxyLrDLB1hgPMlvDshq/oTcc8TMtNeMg4qat0FJgDdde++foJATNFCzBQmt/tZlScEIUkPxoiYlFu4T9iyzE1dTxk14n/6W4uvYUzoe+r2nLEC8DqrZqkNR4P3eE/NKVHfnixMG4PeIV38ea7Kvq7yDMhQl51tH26urXC7IkuI1MuKkvaWGA5WH4GUwu2XLq+1Vy4EZynFclwIYaBEHn60MAgXBeadoo1yJwtk=
+    properties :
+     x : 8
+     y : 371
+     width : 768
+     height : 5
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : BTN_REFRESH
+    identifier : 0x20ec4acd12c72b50
+    internal_properties : CAAAAAgAAAAsB9WiVTcRpNH45mU+shInuSxM8S8tYhdL6c50ymSIm/ZgsBGz2VeUeHa7jJC8vHSHsKQmjMNdK4h7DAxdZE7HexsT5Q3w6M1iuTv9etruKnpCuUs6QGsM9+UQ2bDuFtA72JsMarKnO5iwctpUQ0SYIJJX9Rfm+oKeVGfnrINEf/KgzyTlsNhtpocUg5Txk3uLQhWPQjTm5TKsR/MB8PPZO5Djk1ClTYdqVqWwXu33OlQovvlYavIZ3Uuw9vTsHTwTiSmrJxLjIYN9RgZ/zkJSMdIC9fO/IcbBxd5hg6tFyUGp7pvADN/NToi7UYLzfTeT1JejnetGIHOi7FvKAVUXc8D44lqVM2463OUqNWwf/yCVenRiJ8Cei2hSAuSOc+gbRvxOO6Q6xm0X0/V15JrorN8qOF9PczmM8pA3OSTk4gqu4NG9eWsqkyP4YOmUBlMr0SAKIAbDHFPvg3vGFoqXUk36T4at1LuUV8TRbnQ3K6xUpvK+gEy1VSTouPQw+x0qecSB+XZPFEcG+xkYo+hjfwC9AMwdUsUOPmlCZg2cUVjBBdamyp7B0BnppuOs0Sq3c6LyNdwrPifXdwQQlYax75UqJGArQpVSnAG5qY+MLhgR9UgHd5ea+M6qv3PiICE5Jl89CGy+gt5tHQWn/i0eQ/wrgiAfqwFAgNgaYhiWx7vIXNZCHaFtiqaVJX+Nsjpk9YZYMzDcouODEpBfLjdqrKo2B/8kxe14iYeqpi0WEog2M7lniGOY1GWdU1oe2PcB6HRsThq3dwlfI7aXQvuav2nGxSN/RjeUnEUWIH2ZUVmSD84Zph1U47tKI79/RueekfMgCA03rZDy8w9wqQPkhnLObX19OcPuof/6kE+dC+Zqr4s7isKrITWo6lzTwBuiDdvAgdHDxFl6ueBOt0wztMfqef1zRxC7KPxNtQ==
+    properties :
+     x : 612
+     y : 606
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Create the tree structure
+         CreateTreeStructure(EDT_DIRECTORY)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2b0bb6a32b0f1930
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      // Global variables
+      gsDrivePath is string
+   -
+     code : |1-
+      
+      EDT_DIRECTORY = fParentDir(fExeDir())
+      
+      CreateTreeStructure(EDT_DIRECTORY)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CreateTreeStructure
+     internal_properties : CAAAAAgAAACK5Zbgb96P6SR0m7lGWAPaleLOIjZVETb+wACZyV6yN4Adq7pJONTp7paC7e6WNQ5s3Lz1tg6105gULa4k5Aw9twj6ImxKb2oGXupoStv0Z3RJJ8+7nCE+yueCfLFSrJEhgBedYhfD/A6pd8jJQUy12piuG7WeeZ5Rji3ZvlY253NNdefEx/ZTCWaIcNXRlMnLpLe2aWI=
+     procedure_id : 1219431843448630096
+     type_code : 14
+     code : |1+
+      // Summary: Directory whose content must be listed
+      // Syntax:
+      //CreateTreeStructure (<sPath> is string)
+      //
+      // Parameters:
+      //	sPath (string): <specify the role of sPath>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procedure CreateTreeStructure(sPath is string)
+      
+      // Variable
+      gsDrivePath = sPath
+      gsDrivePath = UncompleteDir(gsDrivePath)
+      
+      // Temporization Window
+      OpenChild(WIN_Wait)
+      WIN_Wait.STC_FILE = sPath
+      
+      // Reinitialize the controls
+      TableDeleteAll(TVT_FileTable)
+      TreeMapDeleteAll(TMAP_File)
+      
+      // Create the root
+      TableAddLine(TVT_FileTable, gsDrivePath)
+      
+      // Find the files and sub-directories
+      fListFile(CompleteDir(gsDrivePath) + “*.*”, FileList, Null, fdInterruptible)
+      
+      // Expand all
+      TableExpandAll(TVT_FileTable)
+      
+      Close(WIN_Wait)
+      
+      
+     type : 458752
+   -
+     name : GetPath
+     procedure_id : 1219431843448695632
+     type_code : 14
+     code : |1+
+      // Sumary: Retrieves the path from a subscript of the TreeMap
+      // Syntax:
+      // [ <Result> = ] GetPath (<nSubscript>)
+      //
+      // Parameters:
+      // 	nSubscript: <specify the role of nSubscript>
+      // Return value:
+      // 	string: <specify the possible values as well as their interpretation>
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procedure GetPath(LOCAL nSubscript)
+      
+      sPath is string = TVT_FileTable.COL_NAME[nSubscript]
+      
+      WHILE nSubscript <> 0 AND nSubscript <> -1
+      	// Search for the subscript of the parent
+      	nSubscript = TableGiveParent(TVT_FileTable, nSubscript)
+      	IF nSubscript <> 0 AND nSubscript <> -1 THEN
+      		sPath = TVT_FileTable.COL_NAME[nSubscript] + [“\”] + sPath
+      	END
+      END
+      
+      // Ignore the <Files> directory that is just used visually
+      sPath = Replace(sPath, “\<Files>”, “”)
+      
+      RESULT sPath
+     type : 458752
+   -
+     name : FileList
+     internal_properties : CAAAAAgAAABKXJr3lgFN6X++thTbIlm9ODbHVEqlke21+pBjA8PSjgQnmUiCKbmDW1eM6AWqKLJZxNQ9GzD1swb8bzpNIIi652nFwVQBCM3pAioioF/T6StdVMR3Nr4OfU63AHtCawHe4KgO3v923neupqKnWdmVfxgVrh0aJHrcRXqvkEZzM15d5giiNaPN2AmpME3T+n1q0wLbaw==
+     procedure_id : 1219431843448761168
+     type_code : 14
+     code : |1+
+      // Summary: Callback called by fListFile
+      // Syntax:
+      // FileList (<sPath>, <sFileName>, <nChange>)
+      //
+      // Parameters:
+      // 	sPath: <specify the role of sPath>
+      // 	sFileName: <specify the role of sFileName>
+      // 	nChange: <specify the role of nChange>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procedure FileList(sPath, sFileName, nChange)
+      
+      // Variables
+      sParent, sTreestructure is string
+      nSubscript is int
+      
+      Multitask(-1)
+      WIN_Wait.STC_FILE = sPath + sFileName
+      
+      SWITCH nChange
+      	CASE flFirstFile
+      		// Add the "<Files>" directory
+      		TableAddChild(TVT_FileTable, gsDrivePath, “<Files>”)
+      		
+      		sParent = TAB + “<Files>”
+      		
+      	CASE flChangeDir
+      		// Directory Addition
+      		sParent = Replace(sPath, gsDrivePath + “\”, “”, IgnoreCase)	// Delete the root from the path
+      		sParent = UncompleteDir(sParent)
+      		AddDirectory(sParent)
+      		
+      		// Add the "<Files>" directory
+      		TableAddChild(TVT_FileTable, gsDrivePath + TAB + sParent, “<Files>”)
+      		
+      		sParent = TAB + sParent + TAB + “<Files>”
+      		
+      	CASE flFile
+      		// Search for the tree structure of the parent
+      		sParent = Replace(sPath, gsDrivePath, “”, IgnoreCase)	// Delete the root from the path
+      		sParent = UncompleteDir(sParent)
+      		sParent = Replace(sParent, “\”, TAB)
+      		sParent += TAB+“<Files>”
+      END
+      
+      // Add the file
+      nSubscript = TableAddChild(TVT_FileTable, gsDrivePath + sParent, sFileName, fSize(sPath + sFileName))
+      
+      // Modify the icon of the added element
+      TVT_FileTable[nSubscript]..CollapsedImage = IMG_FILE
+      TVT_FileTable[nSubscript]..ExpandedImage = IMG_FILE
+      
+      // UPD the TreeMap
+      sTreestructure = Replace(gsDrivePath + sParent, TAB, “\”)
+      sTreestructure = Replace(sTreestructure, “<Files>”, sFileName)
+      
+      TreeMapAdd(TMAP_File, sTreestructure, TVT_FileTable.COL_SIZE[nSubscript])
+      
+      
+     type : 458752
+   -
+     name : AddDirectory
+     procedure_id : 1219431843448826704
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //AddDirectory (<sTreeStructure>)
+      //
+      // Parameters:
+      //	sTreeStructure: <specify the role of sTreeStructure>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procedure AddDirectory(sTreestructure)
+      
+      // Variables
+      nParentSubscript, nAddedSubscript is int
+      sTreeStructureTMP is string
+      nParentSubscript = 1
+      sTreestructure = Replace(sTreestructure, “\”, TAB)
+      
+      FOR EACH string sDirectory of sTreestructure SEPAREE by TAB
+      	nParentSubscript = TableSeekChild(COL_NAME, sDirectory, True, nParentSubscript)
+      	
+      	IF nParentSubscript = -1 THEN
+      		nAddedSubscript = TableAddChild(TVT_FileTable, gsDrivePath + [TAB] + sTreeStructureTMP, sDirectory)
+      		nParentSubscript = nAddedSubscript
+      	ELSE
+      		nAddedSubscript = nParentSubscript
+      	END
+      	
+      	// build the tree structure
+      	sTreeStructureTMP += [TAB] + sDirectory
+      END
+     type : 458752
+   -
+     name : FindTablePosition
+     procedure_id : 1219431843448892240
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      // FindTablePosition (<sPath>)
+      //
+      // Parameters:
+      // 	sPath: <specify the role of sPath>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procedure FindTablePosition(LOCAL sPath)
+      
+      // Variables
+      nParentSubscript is int = 1
+      
+      // Retrieve the path only
+      sPath = fExtractPath(sPath,fDrive+fDirectory) + “<Files>\” + fExtractPath(sPath,fFileName+fExtension)
+      
+      // Retrieve the beginning of the path
+      sPath = Replace(sPath, CompleteDir(gsDrivePath), “”)
+      
+      // Extract the directory to find
+      FOR EACH string sDirectory of sPath SEPAREE by “\”
+      	nParentSubscript = TableSeekChild(COL_NAME,sDirectory,True,nParentSubscript)
+      END
+      
+      TableCollapseAll(TVT_FileTable)
+      TableSelectPlus(TVT_FileTable,nParentSubscript)
+      TablePosition(TVT_FileTable,nParentSubscript)
+      
+     type : 458752
+   -
+     name : SizeFormat
+     internal_properties : CAAAAAgAAADaWmN/i8nNK7yvrCpzuMfseZRX0WqDW3+qqiaGlVVsvQyEoIyvBIqydOrLjKBt+c/uL2GIt6e/3vFkCLPyTpA6M9ekSdIBn+PoJ0fTlfe5kWhTFNll+IUi7NmUgr0OUC3PJk3/NIdzLG4Bn7zFI0Rt5FLQYbO4mzApliXZvmLCs+Isbh5TfMWwqgfJO57mM4io3n8u2SH/t74V+7sAlycxBwA47CS9
+     procedure_id : 1219431843448957776
+     type_code : 14
+     code : |1+
+      // Summary: Formats an integer into a readable string
+      // Syntax:
+      //[ <Result> = ] SizeFormat (<nSize> is 4-byte unsigned int)
+      //
+      // Parameters:
+      //	nSize (4-byte unsigned integer): <specify the role of nSize>
+      // Return value:
+      // 	string: //  	 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE SizeFormat(LOCAL nSize is 4-byte unsigned int)
+      
+      // Size
+      rSize is real
+      sSize is string
+      
+      IF nSize < 1024 THEN // Bytes
+      	rSize = nSize / 1024
+      	sSize = NumToString(rSize, “4,1f”) + “ bytes”	
+      ELSE IF nSize < 1024 * 1024 // Kilo bytes
+      	rSize = nSize / 1024
+      	sSize = NumToString(rSize, “4,1f”) + “ Kb”
+      ELSE IF nSize < 1024 * 1024 * 1024 // Mega bytes
+      	rSize = (nSize / 1024) / 1024
+      	sSize = NumToString(rSize, “4,1f”) + “ Mb”
+      ELSE IF nSize < 1024 * 1024 * 1024 * 1024 // Giga bytes
+      	rSize = ((nSize / 1024) / 1024) / 1024
+      	sSize = NumToString(rSize, “4,1f”) + “ GB”
+      ELSE
+      	dbgAssert(False,“Impossible size value”)
+      END
+      
+      RESULT sSize
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1b0bb6990069f02e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_WIN_Main.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

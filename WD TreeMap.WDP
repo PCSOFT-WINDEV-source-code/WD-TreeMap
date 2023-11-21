@@ -1,0 +1,90 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD TreeMap
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD TreeMap
+    internal_properties : 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
+    configuration_id : 14361826530070703742
+    type : 1
+    generation_name : WD TreeMap.exe
+    version :
+     version : VI200041K
+     internal_generation_version : 2
+     autoincrement_version : false
+    icon_filename : .\description.ico
+    language : 2
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAABgvNhgpXBDBB64BCerzNXBpAYZ4blHaQ7IQq0wei/CtJ1EJ3Nb8nuBuFDce008wlBsvhD7BaKjmZ+J
+ elements :
+  identifier : 0x4b0bb66700142c82
+  elements :
+   -
+     name : WIN_Wait
+     identifier : 0x4b1e7cbc000c81e1
+     internal_properties : CAAAAAgAAACkooyoF0zkh67AH222b94E/tFdbWUE/PhyAlVvASpiVqoATXxyi5hl+yeRbzepUUexsQ==
+     physical_name : .\WIN_Wait.wdw
+     type : 2
+   -
+     name : TEST_WIN_Main
+     identifier : 0x4b13dc6d000b71e9
+     internal_properties : CAAAAAgAAABl4U1RbgsjPIEXNoQdx1uBl5rmri4a54aO2/Iq1TbkPMh0w/YLMkGM0k5IsHBgGIhw8A==
+     physical_name : .\TEST_WIN_Main.wxt
+     type : 17
+   -
+     name : WIN_Main
+     identifier : 0x4b0bb6a5001a1e6e
+     internal_properties : CAAAAAgAAABaMAIGpeLK1egOUSP0rxjK3LM7c1c7C6u2NQbwqUJKvg7gkbg0ydonuWVfWdkX49U/xw==
+     physical_name : .\WIN_Main.wdw
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAABQ63RwWuf4x9rtmnvg7nHVm/0JBAVSvF5Tt0ecdO8df2PwBvv8DDeBJOBbXYUXfDxCz3CW/rPVT+zMgR1aE7M629xgw1fDi2KES5gpSQ==
+  type_code : 0
+  p_codes :
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD TreeMap
+     identifier : 0x4b0bb66700152c82
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    name : Windows Store Apps API
+    explorer_type : custom_folder
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
